@@ -603,7 +603,7 @@
                                 font-size: large;
                             }
                             
-                            @media only screen and (min-width: 0px) and (max-width: 400px) {
+                            @media only screen and (min-width: 0px) and (max-width: 800px) {
                                 #footermenu ul {
                                     float: left;
                                     /*左に回り込み*/
@@ -1265,7 +1265,7 @@
                                 float: left;
                             }
                             
-                            @media only screen and (min-width: 0px) and (max-width: 400px) {
+                            @media only screen and (min-width: 0px) and (max-width: 800px) {
                                 .productimg {
                                     width: 100%;
                                     height: auto;
@@ -1281,7 +1281,7 @@
                                 margin-bottom: 5vw;
                             }
                             
-                            @media only screen and (min-width: 0px) and (max-width: 400px) {
+                            @media only screen and (min-width: 0px) and (max-width: 800px) {
                                 .producttext {
                                     width: 100%;
                                     height: auto;
