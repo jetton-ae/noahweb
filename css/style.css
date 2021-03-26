@@ -1434,3 +1434,41 @@ p.look {
 
 
 /* ==================cover===================== */
+
+
+/* 商品介紹頁面 */
+
+.product {
+    width: 100%;
+    margin-bottom: 5vw;
+}
+
+.productimg {
+    width: 15vw;
+    height: auto;
+    /* margin-left: 5vw; */
+    float: left;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+    .productimg {
+        width: 100%;
+        height: auto;
+        margin: 0 1vw;
+    }
+}
+
+.producttext {}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+    .producttext {
+        width: 100%;
+        height: auto;
+        /* margin-left: 5vw; */
+    }
+}
+
+
+}
+
+/* 商品介紹頁面 */
