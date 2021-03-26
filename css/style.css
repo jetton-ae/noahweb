@@ -1412,7 +1412,7 @@ p.look {
 
 .coverdetail {
     width: 20%;
-    height: 120px;
+    height: auto;
     float: left;
     border: solid;
     border-color: #000;
