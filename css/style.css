@@ -594,7 +594,8 @@
                             #footermenu ul {
                                 float: left;
                                 /*左に回り込み*/
-                                width: 30%;
+                                margin-left: 3vw;
+                                width: 15vw;
                                 /*幅*/
                                 padding-right: 1%;
                                 padding-left: 1%;
