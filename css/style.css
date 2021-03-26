@@ -1343,12 +1343,6 @@ p.look {
     }
 }
 
-.product {
-    width: 94%;
-    height: auto;
-    margin-bottom: 15vw;
-}
-
 .productshow {
     margin-left: 12vw;
 }
@@ -1406,14 +1400,8 @@ p.look {
 
 /* ==================cover===================== */
 
-.cover {
-    width: 94%;
-    height: auto;
-    margin-bottom: 15vw;
-}
-
 .covershow {
-    margin: 0 15vw;
+    margin: 0 5vw;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 400px) {
@@ -1423,8 +1411,8 @@ p.look {
 }
 
 .coverdetail {
-    width: 300px;
-    height: auto;
+    width: 20%;
+    height: 120px;
     float: left;
     border: solid;
     border-color: #000;
