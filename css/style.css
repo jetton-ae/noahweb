@@ -1220,7 +1220,11 @@
                             /* ==================cover===================== */
                             
                             .covershow {
-                                margin: 0 5vw;
+                                margin: 0 17%;
+                                max-width: 1400px;
+                                background-color: #fff;
+                                z-index: 9999;
+                                width: 100%;
                             }
                             
                             @media only screen and (min-width: 0px) and (max-width: 400px) {
@@ -1243,7 +1247,7 @@
                                 .coverdetail {
                                     width: 325px;
                                     height: auto;
-                                    float: left;
+                                    /* float: left; */
                                     border: solid;
                                     border-color: #000;
                                     background: #fff;
