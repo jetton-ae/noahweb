@@ -609,8 +609,9 @@
                                     /*左に回り込み*/
                                     width: 33%;
                                     /*幅*/
+                                    padding: 1% 10vw;
                                     padding-right: 1%;
-                                    padding-left: 1%;
+                                    padding-left: 10vw;
                                     text-align: left;
                                 }
                             }
@@ -1227,7 +1228,7 @@
                                 width: 100%;
                             }
                             
-                            @media only screen and (min-width: 0px) and (max-width: 400px) {
+                            @media only screen and (min-width: 0px) and (max-width: 800px) {
                                 .covershow {
                                     margin-left: 0vw;
                                 }
@@ -1243,9 +1244,9 @@
                                 margin: 1vw;
                             }
                             
-                            @media only screen and (min-width: 0px) and (max-width: 400px) {
+                            @media only screen and (min-width: 0px) and (max-width: 800px) {
                                 .coverdetail {
-                                    width: 325px;
+                                    width: 80%;
                                     height: auto;
                                     /* float: left; */
                                     border: solid;
