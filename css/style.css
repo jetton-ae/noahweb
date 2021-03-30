@@ -1406,11 +1406,12 @@ p.look {
 }
 
 .producttext {
-    width: 15vw;
+    width: 70%;
     height: auto;
-    /* margin-left: 5vw; */
+    margin-left: 5vw;
     float: left;
     margin-bottom: 5vw;
+    text-align: left;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
