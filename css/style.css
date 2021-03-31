@@ -1418,7 +1418,7 @@ p.look {
     .producttext {
         width: 100%;
         height: auto;
-        /* margin-left: 5vw; */
+        margin-left: 1vw;
     }
 }
 
