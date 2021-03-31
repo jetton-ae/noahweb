@@ -717,7 +717,7 @@ footer .pr {
 #footermenu ul {
     float: left;
     /*左に回り込み*/
-    margin-left: 3vw;
+    margin-left: 10vw;
     width: 10vw;
     /*幅*/
     padding-right: 1%;
@@ -736,6 +736,7 @@ footer .pr {
         padding-right: 1%;
         padding-left: 10vw;
         text-align: left;
+        margin-left: 5vw;
     }
 }
 
