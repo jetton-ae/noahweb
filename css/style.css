@@ -717,7 +717,7 @@ footer .pr {
 #footermenu ul {
     float: left;
     /*左に回り込み*/
-    margin-left: 10vw;
+    margin-left: 5vw;
     width: 10vw;
     /*幅*/
     padding-right: 1%;
@@ -1434,15 +1434,12 @@ p.look {
 /* =========ad======== */
 
 .ad {
-    margin: 0 5vw;
-    width: 100%;
-    background-color: #fff;
-}
-
-.ad {
-    margin: 0 5vw;
-    width: 100%;
-    background-color: #fff;
+    max-width: 1400px;
+    height: auto;
+    /*サイトの最大幅*/
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 
