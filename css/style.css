@@ -724,6 +724,7 @@ footer .pr {
     padding-left: 1%;
     text-align: left;
     font-size: large;
+    line-height: 3vw;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
@@ -737,6 +738,7 @@ footer .pr {
         padding-left: 10vw;
         text-align: left;
         margin-left: 5vw;
+        line-height: 3vw;
     }
 }
 
