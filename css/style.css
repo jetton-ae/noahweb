@@ -691,7 +691,7 @@ footer .pr {
 
 #footermenu {
     overflow: hidden;
-    padding: 50px 0;
+    padding: 50px 10%;
     /*上下、左右へのボックス内の余白*/
 }
 
@@ -719,12 +719,13 @@ footer .pr {
     float: left;
     /*左に回り込み*/
     /* margin-left: 5vw; */
-    width: 33%;
+    /* width: 33%; */
     /*幅*/
     /* padding-right: 1%;
     padding-left: 1%; */
     text-align: left;
     font-size: 1rem;
+    margin-left: 15vw;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
@@ -737,7 +738,7 @@ footer .pr {
         padding-right: 1%;
         padding-left: 10vw; */
         text-align: left;
-        margin-left: 5vw;
+        margin-left: 17vw;
         width: 28%;
     }
 }
@@ -1485,3 +1486,21 @@ p.look {
 
 
 /* =========ad======== */
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .pc {
+        display: none;
+    }
+    .mb {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1920px) {
+    .pc {
+        display: block;
+    }
+    .mb {
+        display: none;
+    }
+}
