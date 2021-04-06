@@ -739,7 +739,7 @@ footer .pr {
         padding-left: 10vw; */
         text-align: left;
         margin-left: 5vw;
-        width: 28%;
+        width: 30%;
     }
 }
 
@@ -1502,6 +1502,5 @@ p.look {
     }
     .mb {
         display: none;
-        width: 50%;
     }
 }
