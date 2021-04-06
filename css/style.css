@@ -1502,5 +1502,6 @@ p.look {
     }
     .mb {
         display: none;
+        width: 50%;
     }
 }
