@@ -1491,7 +1491,7 @@ p.look {
         text-align: left;
     }
     .producttext ul li {
-        width: 90%;
+        width: 100%;
         height: auto;
         /* margin-left: 5vw; */
         float: left;
@@ -1538,4 +1538,8 @@ p.look {
     .mb {
         display: none;
     }
+}
+
+.ptext {
+    color: #005bac;
 }
