@@ -662,19 +662,19 @@ footer {
     z-index: 1;
     font-size: 80%;
     /*文字サイズ*/
-    background: #222;
+    background: #c9caca;
     /*背景色*/
-    color: #ccc;
+    color: rgb(0, 0, 0);
     /*文字色*/
     text-align: center;
 }
 
 footer a {
-    color: #ccc;
+    color: rgb(0, 0, 0);
 }
 
 footer a:hover {
-    color: #fff;
+    color: rgb(182, 165, 165);
 }
 
 footer .pr {
