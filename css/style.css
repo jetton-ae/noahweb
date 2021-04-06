@@ -1434,7 +1434,7 @@ p.look {
 }
 
 .productimg {
-    width: 15vw;
+    width: 30%;
     height: auto;
     /* margin-left: 5vw; */
     float: left;
@@ -1451,9 +1451,28 @@ p.look {
 .producttext {
     width: 70%;
     height: auto;
+    /* margin-left: 1vw; */
+    float: left;
+    margin-bottom: 10vw;
+    text-align: left;
+    font-size: larger;
+}
+
+.producttext ul {
+    width: 100%;
+    height: auto;
     margin-left: 5vw;
     float: left;
     margin-bottom: 5vw;
+    text-align: left;
+}
+
+.producttext ul li {
+    width: 80%;
+    height: auto;
+    /* margin-left: 5vw; */
+    float: left;
+    margin-bottom: 5px;
     text-align: left;
 }
 
@@ -1462,6 +1481,22 @@ p.look {
         width: 100%;
         height: auto;
         margin-left: 1vw;
+    }
+    .producttext ul {
+        width: 80%;
+        height: auto;
+        margin-left: 5vw;
+        float: left;
+        margin-bottom: 5vw;
+        text-align: left;
+    }
+    .producttext ul li {
+        width: 90%;
+        height: auto;
+        /* margin-left: 5vw; */
+        float: left;
+        margin-bottom: 5px;
+        text-align: left;
     }
 }
 
