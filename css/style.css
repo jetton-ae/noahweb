@@ -1227,8 +1227,8 @@
         width: 20%;
         height: auto;
         float: left;
-        border: solid;
-        border-color: #005bac;
+        /* border: solid;
+        border-color: #005bac; */
         background: #fff;
         margin: 1vw;
     }
