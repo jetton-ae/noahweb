@@ -1322,6 +1322,7 @@
     .imgtext {
         font-size: larger;
         margin-bottom: 1vw;
+        color: #005bac;
     }
     
     @media only screen and (min-width: 0px) and (max-width: 800px) {
