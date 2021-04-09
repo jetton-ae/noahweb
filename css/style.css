@@ -171,6 +171,7 @@
         height: 65px;
         /*メニューブロックの高さ。ここの「85」と、下の行の「20」を合計した「105」の数字と、上の「#menubar」の「height」および下のfixmenu設定に２箇所ある「margin-top」の数字を合わせて下さい。*/
         padding-top: 20px;
+        font-weight: 500;
         /*メニューブロックの高さプラス、上に空ける余白。メニューテキストの上下の配置バランスをここで調整して下さい。※変更の際は、上の行の注意書きもしっかり読んで下さい。*/
     }
     /*飾り文字*/
@@ -253,6 +254,7 @@
         /*文字色*/
         opacity: 0.7;
         /*透明度。70%色がついた状態。*/
+        font-weight: 500;
     }
     /*マウスオン時*/
     
@@ -558,6 +560,7 @@
     
     footer a {
         color: rgb(0, 0, 0);
+        font-weight: 500;
     }
     
     footer a:hover {
@@ -1293,6 +1296,8 @@
         float: left;
         margin-bottom: 5px;
         text-align: left;
+        font-weight: 400;
+        font-size: x-large;
     }
     
     @media only screen and (min-width: 0px) and (max-width: 800px) {
@@ -1316,6 +1321,8 @@
             float: left;
             margin-bottom: 5px;
             text-align: left;
+            font-weight: 400;
+            font-size: x-large;
         }
     }
     
@@ -1323,6 +1330,7 @@
         font-size: larger;
         margin-bottom: 1vw;
         color: #005bac;
+        font-weight: 400;
     }
     
     @media only screen and (min-width: 0px) and (max-width: 800px) {
@@ -1364,6 +1372,7 @@
     
     .ptext {
         color: #005bac;
+        font-weight: bold;
     }
     
     .btn-wrap {
