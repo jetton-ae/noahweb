@@ -24,7 +24,7 @@
         /*文字サイズ*/
         line-height: 2!important !important;
         /*行間*/
-        background: #e7eff6 !important;
+        /* background: #e7eff6 !important; */
         /*背景色*/
         -webkit-text-size-adjust: none !important;
     }
