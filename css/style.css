@@ -86,6 +86,10 @@
     iframe {
         width: 100%;
     }
+    
+    .ad iframe {
+        width: 75%;
+    }
     /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
     
@@ -337,7 +341,7 @@
     
     #contents h2 {
         clear: both;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         font-size: 300%;
         /*文字サイズ*/
         text-align: center;
@@ -1436,4 +1440,8 @@
         font-family: Raleway-Medium;
         border: 2px solid transparent;
         outline: 0;
+    }
+    
+    .foodsafe {
+        width: 75%;
     }
