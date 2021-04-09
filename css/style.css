@@ -66,6 +66,13 @@
         vertical-align: middle;
     }
     
+    .new img {
+        border: none;
+        max-width: 75%;
+        height: auto;
+        vertical-align: middle;
+    }
+    
     table {
         border-collapse: collapse;
         font-size: 100%;
@@ -155,6 +162,10 @@
         /*高さ。「#menubar ul li a」や「fixmenu」とも連動するので変更の際は注意。説明はこの下の「#menubar ul li a」で書いています。*/
     }
     /*メニュー１個あたりの設定*/
+    
+    #menubar ul {
+        width: 1200px;
+    }
     
     #menubar ul li {
         float: left;
@@ -1251,7 +1262,7 @@
     /* 商品介紹頁面 */
     
     .product {
-        width: 100%;
+        width: 75%;
         margin-bottom: 5vw;
     }
     
@@ -1275,7 +1286,7 @@
         height: auto;
         /* margin-left: 1vw; */
         float: left;
-        margin-bottom: 10vw;
+        margin-bottom: 1vw;
         text-align: left;
         font-size: larger;
     }
@@ -1290,7 +1301,7 @@
     }
     
     .producttext ul li {
-        width: 80%;
+        width: 88%;
         height: auto;
         /* margin-left: 5vw; */
         float: left;
@@ -1337,6 +1348,18 @@
         .imgtext {
             font-size: larger;
             margin-bottom: 3vw;
+        }
+    }
+    
+    .bigimg {
+        width: 83%;
+        margin-left: -0.5vw;
+    }
+    
+    @media only screen and (min-width: 0px) and (max-width: 800px) {
+        .bigimg {
+            width: 100%;
+            /* margin-left: -0.5vw; */
         }
     }
     /* 商品介紹頁面 */
