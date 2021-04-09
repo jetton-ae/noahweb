@@ -571,6 +571,7 @@
         color: rgb(0, 0, 0);
         /*文字色*/
         text-align: center;
+        font-weight: 500;
     }
     
     footer a {
@@ -594,6 +595,7 @@
         overflow: hidden;
         padding: 50px 10%;
         /*上下、左右へのボックス内の余白*/
+        font-weight: 500;
     }
     /*リンクテキスト*/
     
@@ -602,6 +604,7 @@
         opacity: 0.7;
         /*透明度。70%の色がついた状態。*/
         line-height: 175%;
+        font-weight: 500;
     }
     /*マウスオン時*/
     
@@ -622,6 +625,7 @@
         text-align: left;
         font-size: 1rem;
         margin-left: 10vw;
+        font-weight: 500;
     }
     
     @media only screen and (min-width: 0px) and (max-width: 800px) {
