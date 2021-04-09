@@ -1291,7 +1291,7 @@
     }
     
     .producttext {
-        width: 70%;
+        width: 60%;
         height: auto;
         /* margin-left: 1vw; */
         float: left;
@@ -1311,7 +1311,7 @@
     }
     
     .producttext ul li {
-        width: 88%;
+        /* width: 88%; */
         height: auto;
         /* margin-left: 5vw; */
         float: left;
@@ -1406,6 +1406,7 @@
     .ptext {
         color: #005bac;
         font-weight: bold;
+        margin-bottom: .3vw;
     }
     
     .btn-wrap {
