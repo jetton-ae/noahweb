@@ -183,11 +183,10 @@
     #menubar ul li a {
         text-decoration: none;
         display: block;
-        height: 65px;
+        height: 55px;
         /*メニューブロックの高さ。ここの「85」と、下の行の「20」を合計した「105」の数字と、上の「#menubar」の「height」および下のfixmenu設定に２箇所ある「margin-top」の数字を合わせて下さい。*/
-        padding-top: 25px;
+        padding-top: 30px;
         font-weight: 500;
-        valign="center"
         /*メニューブロックの高さプラス、上に空ける余白。メニューテキストの上下の配置バランスをここで調整して下さい。※変更の際は、上の行の注意書きもしっかり読んで下さい。*/
     }
     /*飾り文字*/
