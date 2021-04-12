@@ -1457,22 +1457,23 @@ p.look {
 }
 
 
-}
-
 /* ==================cover===================== */
 
+
 /* 商品介紹頁面 */
+
 .product {
     width: 75%;
     margin-bottom: 5vw;
 }
+
 .productimg {
     width: 30%;
     height: auto;
     /* margin-left: 5vw; */
-    
     float: left;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .productimg {
         width: 100%;
@@ -1480,17 +1481,18 @@ p.look {
         margin: 0 1vw;
     }
 }
+
 .producttext {
     width: 60%;
     height: auto;
     /* margin-left: 1vw; */
-    
     float: left;
     margin-bottom: 1vw;
     text-align: left;
     font-size: larger;
     line-height: 175%;
 }
+
 .producttext ul {
     width: 100%;
     height: auto;
@@ -1499,25 +1501,24 @@ p.look {
     margin-bottom: 5vw;
     text-align: left;
 }
+
 .producttext ul li {
     /* width: 88%; */
-    
     height: auto;
     /* margin-left: 5vw; */
-    
     float: left;
     margin-bottom: 5px;
     text-align: left;
     font-weight: 400;
     font-size: x-large;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .producttext {
         width: 100%;
         height: auto;
         margin-left: 1vw;
     }
-    
     .producttext ul {
         width: 80%;
         height: auto;
@@ -1526,7 +1527,6 @@ p.look {
         margin-bottom: 5vw;
         text-align: left;
     }
-    
     .producttext ul li {
         width: 100%;
         height: auto;
@@ -1538,22 +1538,26 @@ p.look {
         font-size: x-large;
     }
 }
+
 .imgtext {
     font-size: larger;
     margin-bottom: 1vw;
     color: #005bac;
     font-weight: 400;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .imgtext {
         font-size: larger;
         margin-bottom: 3vw;
     }
 }
+
 .bigimg {
     width: 83%;
     margin-left: -0.5vw;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .bigimg {
         width: 100%;
@@ -1561,60 +1565,68 @@ p.look {
     }
 }
 
+
 /* 商品介紹頁面 */
 
+
 /* =========ad======== */
+
 .ad {
     max-width: 1400px;
     height: auto;
     /*サイトの最大幅*/
-    
     margin: 0 auto;
     padding-left: 2%;
     padding-right: 2%;
 }
 
+
 /* =========ad======== */
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .pc {
         display: none;
     }
-    
     .mb {
         display: block;
     }
 }
+
 @media only screen and (min-width: 801px) {
     .pc {
         display: block;
     }
-    
     .mb {
         display: none;
     }
 }
+
 .ptext {
     color: #005bac;
     font-weight: bold;
     margin-bottom: .3vw;
     font-weight: 600;
 }
+
 .ptext>text {
     color: #727171 !important;
     font-weight: bold;
     margin-bottom: .3vw;
     font-weight: 600;
 }
+
 .btn-wrap {
     text-align: center;
     height: 2vw;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .btn-wrap {
         text-align: center;
         height: 10vw;
     }
 }
+
 .global-btn {
     padding: .1rem 0.5rem .1rem;
     background-color: #23356f;
@@ -1628,6 +1640,7 @@ p.look {
     border: 2px solid transparent;
     outline: 0;
 }
+
 .global-btn:hover {
     padding: .5rem 1.5rem .4rem;
     background-color: #005bac;
@@ -1641,6 +1654,7 @@ p.look {
     border: 2px solid transparent;
     outline: 0;
 }
+
 .foodsafe {
     width: 75%;
 }
