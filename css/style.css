@@ -724,7 +724,9 @@ footer .pr {
     opacity: 0.7;
     /*透明度。70%の色がついた状態。*/
     line-height: 175%;
-    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 550;
 }
 
 
@@ -748,7 +750,7 @@ footer .pr {
     padding-left: 1%; */
     text-align: left;
     font-size: 1rem;
-    margin-left: 10vw;
+    margin-left: 8vw;
     font-weight: 500;
 }
 
@@ -1452,7 +1454,7 @@ p.look {
         /* border: solid;
         border-color: #005bac; */
         background: #fff;
-        margin: 1vw;
+        margin: 1vw 1vw 5vw 1vw;
     }
 }
 
@@ -1509,7 +1511,8 @@ p.look {
     float: left;
     margin-bottom: 5px;
     text-align: left;
-    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
     font-size: x-large;
 }
 
