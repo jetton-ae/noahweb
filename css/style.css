@@ -193,7 +193,7 @@ header #logo {
 /*メニュー１個あたりの設定*/
 
 #menubar ul {
-    width: 1200px;
+    /* width: 1200px; */
 }
 
 #menubar ul li {
