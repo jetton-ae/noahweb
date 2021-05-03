@@ -1505,7 +1505,7 @@ p.look {
 }
 
 .producttext ul li {
-    /* width: 88%; */
+    width: 100%;
     height: auto;
     /* margin-left: 5vw; */
     float: left;
