@@ -1661,3 +1661,13 @@ p.look {
 .foodsafe {
     width: 75%;
 }
+
+.navimg>img {
+    margin-top: -0.5rem;
+    width: 60% !important;
+}
+
+.title>img {
+    margin-top: -0.5rem;
+    width: 60% !important;
+}
