@@ -1671,3 +1671,15 @@ p.look {
     margin-top: -0.5rem;
     width: 60% !important;
 }
+
+.series {
+    margin-top: -2.5rem;
+    margin-bottom: -4.5rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .series {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+}
