@@ -23,7 +23,7 @@ body {
     padding: 0px !important;
     color: #b5b4aa !important;
     /*全体の文字色*/
-    font-family: "Chiron Sans HK Pro WS", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     /*フォント種類*/
     font-size: 16px !important;
     /*文字サイズ*/
@@ -198,7 +198,7 @@ header #logo {
     /*上の線の幅、線種、色*/
     border-bottom: 1px solid #ccc;
     /*下の線の幅、線種、色*/
-    font-family: "Questrial", sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     /*冒頭で読み込んだGoogle Fontsを適用する指定*/
     height: 85px;
     /*高さ。「#menubar ul li a」や「fixmenu」とも連動するので変更の際は注意。説明はこの下の「#menubar ul li a」で書いています。*/
@@ -540,7 +540,7 @@ body.is-fixed-menu #menubar ul.ddmenu li a {
     position: absolute;
     color: rgba(255, 255, 255, 0.15);
     /*文字色。255,255,255は白のことで、0.15は色が15%出た状態のこと。*/
-    font-family: "Tangerine", cursive;
+    font-family: 'Noto Sans TC', sans-serif;
     /*冒頭で読み込んだGoogle Fontsを適用する指定*/
 }
 
@@ -742,7 +742,7 @@ footer .pr {
     opacity: 0.7;
     /*透明度。70%の色がついた状態。*/
     line-height: 175%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: larger;
     font-weight: 550;
 }
@@ -1533,7 +1533,7 @@ p.look {
     float: left;
     margin-bottom: 5px;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-weight: 500;
     font-size: x-large;
 }
@@ -1630,14 +1630,14 @@ p.look {
     color: #005bac;
     font-weight: 900;
     margin-bottom: .3vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 .ptextbody {
     color: #616161 !important;
     font-weight: bold;
     margin-bottom: .3vw;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .btn-wrap {
@@ -1661,7 +1661,7 @@ p.look {
     text-decoration: none;
     min-width: 146px;
     outline: 0;
-    font-family: Raleway-Medium;
+    font-family: 'Noto Sans TC', sans-serif;
     border: 2px solid transparent;
     outline: 0;
 }
@@ -1675,7 +1675,7 @@ p.look {
     text-decoration: none;
     min-width: 146px;
     outline: 0;
-    font-family: Raleway-Medium;
+    font-family: 'Noto Sans TC', sans-serif;
     border: 2px solid transparent;
     outline: 0;
 }
