@@ -135,7 +135,7 @@ a:hover {
 
 header {
     position: relative;
-    padding: 20px;
+    /* padding: 20px; */
     /*ヘッダー内の余白*/
 }
 
@@ -151,10 +151,17 @@ header {
 /*ロゴ画像*/
 
 header #logo {
-    width: 200px;
+    width: 100%;
     /*画像幅*/
     margin: 0 auto;
     /*中央配置*/
+}
+
+#logo {
+    background-image: url(/images/logo1.png);
+    background-repeat: no-repeat;
+    -moz-background-size: 100%100%;
+    background-size: 100%100%;
 }
 
 
@@ -714,6 +721,7 @@ footer .pr {
     padding: 50px 10%;
     /*上下、左右へのボックス内の余白*/
     font-weight: 500;
+    background-image: url(/images/Noah\ \(footer\)1500_242.jpg)
 }
 
 
@@ -1681,5 +1689,19 @@ p.look {
     .series {
         margin-top: 0rem;
         margin-bottom: 0rem;
+    }
+}
+
+.bg {
+    background-image: url(/images/國際驗證底圖1000_1000.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .bg {
+        background-image: url(/images/國際驗證底圖1000_1000_mb.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
     }
 }
