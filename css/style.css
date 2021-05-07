@@ -166,7 +166,7 @@ header #logo {
 }
 
 #logo {
-    background-image: url('/images/logo1.png');
+    background-image: url('../images/logo1.png');
     background-repeat: no-repeat;
     -moz-background-size: 100%100%;
     background-size: 100%100%;
@@ -729,7 +729,7 @@ footer .pr {
     padding: 50px 10%;
     /*上下、左右へのボックス内の余白*/
     font-weight: 500;
-    background-image: url('/images/Noahfooter.jpg');
+    background-image: url('../images/Noahfooter.jpg');
     background-size: cover;
     margin-top: 0.5vw;
 }
@@ -1249,11 +1249,11 @@ p.look {
     }
     /*「＞」アイコン設定*/
     #menubar_hdr2.close {
-        background: url(../images/arrow2.png) no-repeat 20px 35px / 18px;
+        background: url('../images/arrow2.png') no-repeat 20px 35px / 18px;
     }
     /*「＾」アイコン設定*/
     #menubar_hdr2.open {
-        background: url(../images/arrow3.png) no-repeat 20px 35px / auto 18px;
+        background: url('../images/arrow3.png') no-repeat 20px 35px / auto 18px;
     }
     /*子メニュー１個あたりの設定*/
     #menubar-s2 li a {
@@ -1278,11 +1278,11 @@ p.look {
     }
     /*「＞」アイコン設定*/
     #menubar_hdr3.close {
-        background: url(../images/arrow2.png) no-repeat 20px 35px / 18px;
+        background: url('../images/arrow2.png') no-repeat 20px 35px / 18px;
     }
     /*「＾」アイコン設定*/
     #menubar_hdr3.open {
-        background: url(../images/arrow3.png) no-repeat 20px 35px / auto 18px;
+        background: url('../images/arrow3.png') no-repeat 20px 35px / auto 18px;
     }
     /*子メニュー１個あたりの設定*/
     #menubar-s3 li a {
@@ -1315,12 +1315,12 @@ p.look {
     }
     /*三本バーアイコン*/
     #menubar_hdr.close {
-        background: #005bac url(../images/icon_menu.png) no-repeat center top/50px;
+        background: #005bac url('../images/icon_menu.png') no-repeat center top/50px;
         /*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
     }
     /*閉じるアイコン*/
     #menubar_hdr.open {
-        background: #005bac url(../images/icon_menu.png) no-repeat center bottom/50px;
+        background: #005bac url('../images/icon_menu.png') no-repeat center bottom/50px;
         /*背景色、背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
     }
     /*fixmenu設定（メニューが画面上部に到達した際のスタイル）
@@ -1720,14 +1720,14 @@ p.look {
 }
 
 .bg {
-    background-image: url(' /images/國際驗證底圖1000_1000.png');
+    background-image: url('../images/國際驗證底圖1000_1000.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .bg {
-        background-image: url('/images/國際驗證底圖1000_1000_mb.png');
+        background-image: url('../images/國際驗證底圖1000_1000_mb.png');
         background-repeat: no-repeat;
         background-size: 100% auto;
     }
