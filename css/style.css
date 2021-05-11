@@ -218,9 +218,6 @@ header #logo {
     /*幅。今回は５個なので、100÷5=20。*/
     font-size: 20px;
     /*文字サイズ*/
-    div: hover {
-        30px;
-    }
 }
 
 #menubar ul li a {
