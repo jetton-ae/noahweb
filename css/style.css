@@ -218,6 +218,9 @@ header #logo {
     /*幅。今回は５個なので、100÷5=20。*/
     font-size: 20px;
     /*文字サイズ*/
+    div: hover {
+        30px;
+    }
 }
 
 #menubar ul li a {
@@ -1448,7 +1451,7 @@ p.look {
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .covershow {
-        margin-left: 0vw;
+        margin-left: 1vw;
     }
 }
 
@@ -1489,6 +1492,40 @@ p.look {
         border-color: #005bac; */
         background: #fff;
         margin: 1vw 1vw 5vw 1vw;
+    }
+}
+
+.coverdetail1 {
+    width: 20%;
+    height: auto;
+    float: left;
+    /* border: solid;
+        border-color: #005bac; */
+    background: #fff;
+    margin: 1vw;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .coverdetail1 {
+        width: 80%;
+        height: auto;
+        /* float: left; */
+        border: solid;
+        border-color: #005bac;
+        background: #fff;
+        margin: 1vw 5vw 1vw;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .coverdetail1 {
+        width: 30%;
+        height: auto;
+        float: left;
+        /* border: solid;
+        border-color: #005bac; */
+        background: #fff;
+        margin: 1vw 1vw 10vw 1vw;
     }
 }
 
