@@ -1783,29 +1783,49 @@ p.look {
 /* yt */
 
 .ytvideo {
-    /* width: 100%; */
-    padding: 0 5rem;
-    margin-left: 10rem;
+    width: 88%;
+    margin-top: 1rem;
 }
 
 .mother {
-    width: 30%;
+    width: 33%;
     line-height: 50px;
-    margin-right: 10px;
+    margin-right: 5px;
     float: left;
 }
 
 .p20 {
-    width: 30%;
+    width: 33%;
     line-height: 50px;
-    margin-right: 10px;
+    margin-right: 5px;
     float: left;
 }
 
 .p30 {
-    width: 30%;
+    width: 33%;
     line-height: 50px;
     float: left;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+    .ytvideo {
+        width: 88%;
+        margin-top: 1rem;
+    }
+    .mother {
+        width: 100%;
+        line-height: 50px;
+        margin-right: 5px;
+    }
+    .p20 {
+        width: 100%;
+        line-height: 50px;
+        margin-right: 5px;
+    }
+    .p30 {
+        width: 100%;
+        line-height: 50px;
+    }
 }
 
 
