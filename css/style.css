@@ -1778,3 +1778,33 @@ p.look {
         background-size: 100% auto;
     }
 }
+
+
+/* yt */
+
+.ytvideo {
+    padding: 0 5rem;
+}
+
+.mother {
+    width: 30%;
+    line-height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.p20 {
+    width: 30%;
+    line-height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.p30 {
+    width: 30%;
+    line-height: 50px;
+    float: left;
+}
+
+
+/* yt */
