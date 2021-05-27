@@ -695,7 +695,7 @@ footer {
     z-index: 1;
     font-size: 80%;
     /*文字サイズ*/
-    /* background: #c9caca; */
+    background: #c9caca;
     /*背景色*/
     color: rgb(0, 0, 0);
     /*文字色*/
@@ -729,7 +729,7 @@ footer .pr {
     padding: 50px 10%;
     /*上下、左右へのボックス内の余白*/
     font-weight: 500;
-    background-image: url('../images/Noah (footer)1500_242_V2.png');
+    background-image: url('../images/Noahfooter.jpg');
     background-size: 100% 100%;
     /* margin-top: 0.5vw; */
 }
@@ -1792,23 +1792,6 @@ p.look {
     line-height: 50px;
     margin-right: 5px;
     float: left;
-}
-
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-.an {
-    -webkit-transform: rotate(360deg);
-    animation: rotation 3s linear infinite;
-    -moz-animation: rotation 3s linear infinite;
-    -webkit-animation: rotation 3s linear infinite;
-    -o-animation: rotation 3s linear infinite;
 }
 
 .p20 {
