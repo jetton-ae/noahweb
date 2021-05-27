@@ -1847,3 +1847,22 @@ p.look {
 
 
 /* yt */
+
+
+/* @media (min-width: 1200px) {
+    .con {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .con {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .con {
+        width: 750px;
+    }
+} */
