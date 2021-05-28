@@ -695,7 +695,7 @@ footer {
     z-index: 1;
     font-size: 80%;
     /*文字サイズ*/
-    background: #c9caca;
+    /* background: #c9caca; */
     /*背景色*/
     color: rgb(0, 0, 0);
     /*文字色*/
@@ -729,7 +729,7 @@ footer .pr {
     padding: 50px 10%;
     /*上下、左右へのボックス内の余白*/
     font-weight: 500;
-    background-image: url('../images/Noahfooter.jpg');
+    background-image: url('../images/Noah\ \(footer\)1500_242_V2.png');
     background-size: 100% 100%;
     /* margin-top: 0.5vw; */
 }
@@ -1739,6 +1739,34 @@ p.look {
     outline: 0;
 }
 
+.global-btn1 {
+    padding: .1rem 0.5rem .1rem;
+    /* background-color: #23356f; */
+    font-size: 1.063em;
+    color: #005bac;
+    border-radius: 100px;
+    text-decoration: none;
+    min-width: 146px;
+    outline: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    border: 2px solid transparent;
+    outline: 0;
+}
+
+.global-btn1:hover {
+    padding: .5rem 1.5rem .4rem;
+    background-color: #005bac;
+    font-size: 1.063em;
+    color: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    min-width: 146px;
+    outline: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    border: 2px solid transparent;
+    outline: 0;
+}
+
 .foodsafe {
     width: 75%;
 }
@@ -1830,22 +1858,3 @@ p.look {
 
 
 /* yt */
-
-
-/* @media (min-width: 1200px) {
-    .con {
-        width: 1170px;
-    }
-}
-
-@media (min-width: 992px) {
-    .con {
-        width: 970px;
-    }
-}
-
-@media (min-width: 768px) {
-    .con {
-        width: 750px;
-    }
-} */
