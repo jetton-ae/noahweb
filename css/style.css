@@ -1858,3 +1858,13 @@ p.look {
 
 
 /* yt */
+
+.litext>a {
+    margin-top: 10px;
+    color: #000000;
+    font-size: large;
+}
+
+.litext:hover {
+    color: #005bac;
+}

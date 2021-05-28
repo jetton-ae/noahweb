@@ -30,6 +30,7 @@
 .vmcarousel>li img {
     display: block;
     margin: 0 auto;
+    margin-bottom: 3rem;
     max-width: 100%;
 }
 
