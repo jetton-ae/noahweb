@@ -202,19 +202,21 @@ header #logo {
     /*冒頭で読み込んだGoogle Fontsを適用する指定*/
     height: 85px;
     /*高さ。「#menubar ul li a」や「fixmenu」とも連動するので変更の際は注意。説明はこの下の「#menubar ul li a」で書いています。*/
+    box-shadow: 0px 3px 10px 0px #8cd3fca4;
 }
 
 
 /*メニュー１個あたりの設定*/
 
 #menubar ul {
-    /* width: 1200px; */
+    /* width: 800px; */
+    padding-left: 28%;
 }
 
 #menubar ul li {
     float: left;
     /*左に回り込み*/
-    width: 16.6%;
+    /* width: 16.6%; */
     /*幅。今回は５個なので、100÷5=20。*/
     font-size: 20px;
     /*文字サイズ*/
@@ -1744,7 +1746,7 @@ p.look {
     /* background-color: #23356f; */
     font-size: 1.063em;
     color: #005bac;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     text-decoration: none;
     min-width: 146px;
     outline: 0;
@@ -1773,7 +1775,7 @@ p.look {
 
 .navimg>img {
     margin-top: -3.5rem;
-    width: 60% !important;
+    width: 100% !important;
 }
 
 .title>img {

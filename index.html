@@ -17,10 +17,9 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="dist/jquery.vm-carousel.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -70,11 +69,42 @@
     a {
         /* margin-top: 9rem; */
         color: #000000;
-        font-size: larger;
     }
     
     a:hover {
         color: #005bac;
+    }
+    
+    .test {
+        width: 100%;
+        height: 50px;
+        position: relative;
+    }
+    
+    .test:after {
+        content: '';
+        height: 25px;
+        border-right: 2px solid;
+        color: #005bac;
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    
+    .test1 {
+        width: 100%;
+        height: 50px;
+        position: relative;
+    }
+    
+    .test1:after {
+        content: '';
+        height: 25px;
+        border-right: 2px solid;
+        color: #ffffff;
+        position: absolute;
+        right: 0;
+        top: 20px;
     }
 </style>
 
@@ -97,63 +127,59 @@
 
         <nav id="menubar" class="nav-fix-pos">
             <ul class="inner">
-                <li>
+                <li class="lilogo ">
                     <a href="index.html">
-                        <div class="navimg"><img src="images/logo7.png" alt="Noah"></div>
+                        <div class="navimg "><img src="images/logo7.png" alt="Noah"></div>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)" class="cursor-default button">
-                        <div class="btn-wrap ">
-                            <div class="hover">
-                                <img src="/images/logo7.png" alt="">
-                            </div>
-                            <diva class="btn global-btn1 ">產品介紹</diva>
-
+                    <a href="javascript:void(0)" class="cursor-default">
+                        <div class="btn-wrap test">
+                            <diva class="btn global-btn1">產品介紹</diva>
                         </div>
                     </a>
                     <ul class="ddmenu">
-                        <li><a href="cover.html">cover系列</a></li>
-                        <li><a href="Nutrition With Fiber.html">順暢系列</a></li>
-                        <li><a href="uplus.html">優+系列</a></li>
-                        <li><a href="Children’s Nutrition.html">幼兒營養配方</a></li>
-                        <li><a href="Nutrition series.html">營養素系列</a></li>
-                        <li><a href="Rice Cereal Powder.html">米精系列</a></li>
-                        <li><a href="Nutrition protein.html">蛋白質系列</a></li>
+                        <li class="test1"><a href="cover.html">cover系列</a></li>
+                        <li class="test1"><a href="Nutrition With Fiber.html">順暢系列</a></li>
+                        <li class="test1"><a href="uplus.html">優+系列</a></li>
+                        <li class="test1"><a href="Children’s Nutrition.html">幼兒營養配方</a></li>
+                        <li class="test1"><a href="Nutrition series.html">營養素系列</a></li>
+                        <li class="test1"><a href="Rice Cereal Powder.html">米精系列</a></li>
+                        <li class="test1"><a href="Nutrition protein.html">蛋白質系列</a></li>
                         <li><a href="https://jetton-ae.github.io/noahprotein/">諾亞普羅丁</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="foodsafe.html">
-                        <div class="btn-wrap">
+                        <div class="btn-wrap  test">
                             <diva class="btn global-btn1">食在安全</diva>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="ad.html">
-                        <div class="btn-wrap">
+                        <div class="btn-wrap test">
                             <diva class="btn global-btn1">展覽廣告 </diva>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="mailto:jetton-ae@jetton-bioch.com.tw?subject=JBC%20使用者意見回饋&body=您好,%0A我在使用 JBC 遭遇了底下的問題，請協助處理～ %0A%0A謝謝">
-                        <div class="btn-wrap">
+                        <div class="btn-wrap test">
                             <diva class="btn global-btn1">聯絡我們</diva>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:void(0)" class="cursor-default">
-                        <div class="btn-wrap">
+                        <div class="btn-wrap test">
                             <diva class="btn global-btn1">語言</diva>
                         </div>
                     </a>
                     <ul class="ddmenu">
-                        <li><a href="/en/index.html">英文</a></li>
-                        <li><a href="/vn/index.html">越南文</a></li>
-                        <li><a href="/my/index.html">馬來文</a></li>
+                        <li class="test1"><a href="/en/index.html">英文</a></li>
+                        <li class="test1"><a href="/vn/index.html">越南文</a></li>
+                        <li class="test1"><a href="/my/index.html">馬來文</a></li>
                         <li><a href="/jp/index.html">日文</a></li>
                     </ul>
                 </li>
@@ -198,7 +224,7 @@
                     <h2>品牌初衷</h2>
                     <br>
                     <center>
-                        <img src="images/noahstory.jpg" alt="Noah諾亞" style="width: 88%;">
+                        <div class="wow animate__rotateOutDownLeft"><img src="images/noahstory.jpg" alt="Noah諾亞" style="width: 88%;"></div>
                     </center>
 
                 </section>
@@ -236,7 +262,7 @@
             <!--/.inner-->
 
         </div>
-
+        <div class="animate__bounce"><img src="images/noahstory.jpg" alt="Noah諾亞" style="width: 88%;"></div>
         <!--/#contents-->
 
         <div class="footerpage"></div>
