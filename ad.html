@@ -39,17 +39,55 @@
                 margin: 0 auto;
             }
         }
+        
+        .test {
+            width: 100%;
+            height: 50px;
+            position: relative;
+        }
+        
+        .test:after {
+            content: '';
+            height: 25px;
+            border-right: 2px solid;
+            color: #005bac;
+            position: absolute;
+            right: 0;
+            top: 5px;
+        }
+        
+        .test1 {
+            width: 100%;
+            height: 50px;
+            position: relative;
+        }
+        
+        .test1:after {
+            content: '';
+            height: 25px;
+            border-right: 2px solid;
+            color: #ffffff;
+            position: absolute;
+            right: 0;
+            top: 20px;
+        }
+        
+        .global-btn2 {
+            padding: .5rem 1.5rem .4rem;
+            background-color: #005bac;
+            font-size: 1.063em;
+            color: #fff;
+            border-radius: 100px;
+            text-decoration: none;
+            min-width: 146px;
+            outline: 0;
+            font-family: 'Noto Sans TC', sans-serif;
+            border: 2px solid transparent;
+            outline: 0;
+        }
     </style>
-    <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
-<style type="text/css">
-    body {
-        background-color: #e7eff6;
-    }
-</style>
+
 
 <body>
 
@@ -61,7 +99,97 @@
             </div>
         </header>
 
-        <div class="navpage"></div>
+        <nav id="menubar" class="nav-fix-pos">
+            <ul class="inner">
+                <li class="lilogo ">
+                    <a href="index.html">
+                        <div class="navimg "><img src="images/logo7.png" alt="Noah"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="cursor-default">
+                        <div class="btn-wrap test">
+                            <diva class="btn global-btn1">產品介紹</diva>
+                        </div>
+                    </a>
+                    <ul class="ddmenu">
+                        <li class="test1"><a href="cover.html">cover系列</a></li>
+                        <li class="test1"><a href="Nutrition With Fiber.html">順暢系列</a></li>
+                        <li class="test1"><a href="uplus.html">優+系列</a></li>
+                        <li class="test1"><a href="Children’s Nutrition.html">幼兒營養配方</a></li>
+                        <li class="test1"><a href="Nutrition series.html">營養素系列</a></li>
+                        <li class="test1"><a href="Rice Cereal Powder.html">米精系列</a></li>
+                        <li class="test1"><a href="Nutrition protein.html">蛋白質系列</a></li>
+                        <li><a href="https://jetton-ae.github.io/noahprotein/">諾亞普羅丁</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="foodsafe.html">
+                        <div class="btn-wrap  test">
+                            <diva class="btn global-btn1">食在安全</diva>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="ad.html">
+                        <div class="btn-wrap test">
+                            <diva class="btn global-btn2">展覽廣告 </diva>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:jetton-ae@jetton-bioch.com.tw?subject=JBC%20使用者意見回饋&body=您好,%0A我在使用 JBC 遭遇了底下的問題，請協助處理～ %0A%0A謝謝">
+                        <div class="btn-wrap test">
+                            <diva class="btn global-btn1">聯絡我們</diva>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="cursor-default">
+                        <div class="btn-wrap ">
+                            <diva class="btn global-btn1">語言</diva>
+                        </div>
+                    </a>
+                    <ul class="ddmenu">
+                        <li class="test1"><a href="/en/index.html">英文</a></li>
+                        <li class="test1"><a href="/vn/index.html">越南文</a></li>
+                        <li class="test1"><a href="/my/index.html">馬來文</a></li>
+                        <li><a href="/jp/index.html">日文</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="menubar-s">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="images/logo7.png" alt="Noah"></a>
+                </li>
+                <li id="menubar_hdr2" class="close">產品介紹
+                    <ul id="menubar-s2">
+                        <li><a href="cover.html">cover系列</a></li>
+                        <li><a href="Nutrition With Fiber.html">順暢系列</a></li>
+                        <li><a href="uplus.html">優+系列</a></li>
+                        <li><a href="Children’s Nutrition.html">幼兒營養配方</a></li>
+                        <li><a href="Nutrition series.html">營養素系列</a></li>
+                        <li><a href="Rice Cereal Powder.html">米精系列</a></li>
+                        <li><a href="Nutrition protein.html">蛋白質系列</a></li>
+                        <li><a href="https://jetton-ae.github.io/noahprotein/">諾亞普羅丁</a></li>
+                    </ul>
+                </li>
+                <li><a href="foodsafe.html">食在安全</a></li>
+                <li><a href="ad.html">展覽廣告</a></li>
+                <li><a href="mailto:信箱?subject=JBC%20使用者意見回饋&body=您好,%0A我在使用 JBC 遭遇了底下的問題，請協助處理～ %0A%0A謝謝">聯絡我們</a></li>
+                <li id="menubar_hdr3" class="close">語言
+                    <ul id="menubar-s3">
+                        <li><a href="#">中文</a></li>
+                        <li><a href="#">英文</a></li>
+                        <li><a href="#">越南文</a></li>
+                        <li><a href="#">馬來文</a></li>
+                        <li><a href="#">日文</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 
         <div id="contents">
 
