@@ -336,6 +336,7 @@ header #logo {
 
 #menubar ul.ddmenu li a:hover {
     opacity: 1;
+    box-shadow: 4px 4px 12px 4px rgba(20%, 20%, 40%, 0.5);
     /*透明度。色が100%出た状態。*/
 }
 
@@ -1760,13 +1761,14 @@ p.look {
     background-color: #005bac;
     font-size: 1.063em;
     color: #fff;
-    border-radius: 100px;
+    border-radius: 10px;
     text-decoration: none;
     min-width: 146px;
     outline: 0;
     font-family: 'Noto Sans TC', sans-serif;
     border: 2px solid transparent;
     outline: 0;
+    box-shadow: 4px 4px rgba(20%, 20%, 40%, 0.5);
 }
 
 .foodsafe {
