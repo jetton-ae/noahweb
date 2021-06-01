@@ -216,7 +216,7 @@ header #logo {
 #menubar ul li {
     float: left;
     /*左に回り込み*/
-    /* width: 16.6%; */
+    width: 16.6%;
     /*幅。今回は５個なので、100÷5=20。*/
     font-size: 20px;
     /*文字サイズ*/
@@ -1777,7 +1777,7 @@ p.look {
 
 .navimg>img {
     margin-top: -3.5rem;
-    width: 100% !important;
+    width: 80% !important;
 }
 
 .title>img {
