@@ -1876,3 +1876,13 @@ p.look {
 .indeximg {
     float: left;
 }
+
+.indeximg2 {
+    margin-top: 2rem;
+    float: right;
+}
+
+.indeximg3 {
+    margin-top: 68rem;
+    margin-bottom: 2rem;
+}
