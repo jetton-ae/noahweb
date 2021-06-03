@@ -1650,7 +1650,7 @@ p.look {
     height: auto;
     /*サイトの最大幅*/
     margin: 0 auto;
-    margin-top: -3rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     padding-left: 2%;
     padding-right: 2%;
@@ -1772,6 +1772,7 @@ p.look {
 }
 
 .foodsafe {
+    margin-top: 15px;
     width: 75%;
 }
 
