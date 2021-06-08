@@ -218,37 +218,32 @@
 
     <!--メニュー開閉ボタン-->
     <div id="menubar_hdr" class="close"></div>
-    <style src="js/openclose.js"></style>
-    <style src="js/fixmenu.js"></style>
-    <style src="js/fixmenu_pagetop.js"></style>
+    <script src="js/openclose.js"></script>
+    <script src="js/fixmenu.js"></script>
+    <script src="js/fixmenu_pagetop.js"></script>
     <style src="js/ddmenu_min.js"></style>
     <!--メニューの開閉処理-->
-    <style>
+    <script>
         open_close("menubar_hdr", "menubar-s");
-    </style>
+    </script>
 
     <!--「WORKS」の子メニュー-->
-    <style>
+    <script>
         open_close("menubar_hdr2", "menubar-s2");
-    </style>
+    </script>
 
 
 
 
 
-    <style src="js/jquery-1.11.0.min.js"></style>
-    <style>
-        $(function() {
-            /*公共部分
-             * 導航欄
-             * footer CopyRight
-             */
+    <script src="js/jquery-1.11.0.min.js">
+    </script>
+    <script>
+        $(function() { /*公共部分 * 導航欄 * footer CopyRight */
             $(".navpage").load("nav.html");
             $(".footerpage").load("footer.html");
-        }
-        
-        );
-    </style>
+        });
+    </script>
 
 </body>
 
