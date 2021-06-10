@@ -1569,6 +1569,7 @@ p.look {
 .producttext ul {
     width: 100%;
     height: auto;
+    margin-top: 3vw;
     margin-left: 5vw;
     float: left;
     margin-bottom: 5vw;
