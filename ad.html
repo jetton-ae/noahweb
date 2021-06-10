@@ -203,6 +203,7 @@
                 <center>
                     <iframe width="75%" height="500px" src="https://www.youtube.com/embed/videoseries?list=PLGv3JXfNWFXdTcLqmer73pQzpxlfuhy2L" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </center>
+
             </div>
             <!--/.inner-->
 
@@ -218,26 +219,26 @@
 
     <!--メニュー開閉ボタン-->
     <div id="menubar_hdr" class="close"></div>
-    <style src="js/openclose.js"></style>
-    <style src="js/fixmenu.js"></style>
-    <style src="js/fixmenu_pagetop.js"></style>
-    <style src="js/ddmenu_min.js"></style>
+    <script src="js/openclose.js"></script>
+    <script src="js/fixmenu.js"></script>
+    <script src="js/fixmenu_pagetop.js"></script>
+    <script src="js/ddmenu_min.js"></script>
     <!--メニューの開閉処理-->
-    <style>
+    <script>
         open_close("menubar_hdr", "menubar-s");
-    </style>
+    </script>
 
     <!--「WORKS」の子メニュー-->
-    <style>
+    <script>
         open_close("menubar_hdr2", "menubar-s2");
-    </style>
+    </script>
 
 
 
 
 
-    <style src="js/jquery-1.11.0.min.js"></style>
-    <style>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script>
         $(function() {
             /*公共部分
              * 導航欄
@@ -245,10 +246,8 @@
              */
             $(".navpage").load("nav.html");
             $(".footerpage").load("footer.html");
-        }
-        
-        );
-    </style>
+        });
+    </script>
 
 </body>
 
