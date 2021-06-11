@@ -1797,6 +1797,15 @@ p.look {
     float: left;
 }
 
+.foodsafetextmb {
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 0.8cm;
+    color: black;
+    float: left;
+}
+
 .foodsafe3 {
     margin-top: 10px;
     width: 59%;
