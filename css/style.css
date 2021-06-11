@@ -1330,7 +1330,7 @@ p.look {
     }
     /*三本バーアイコン*/
     #menubar_hdr.close {
-        background: #005bac url('../images/icon_menu.png') no-repeat center top/50px;
+        background: #005bac url('../images/logo.png') no-repeat center top/50px;
         /*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
     }
     /*閉じるアイコン*/
@@ -1772,9 +1772,41 @@ p.look {
     box-shadow: 4px 4px rgba(20%, 20%, 40%, 0.5);
 }
 
+.experiment {
+    margin: 0px auto;
+    width: 75%;
+}
+
 .foodsafe {
     margin-top: 15px;
     width: 75%;
+}
+
+.foodsafe2 {
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+}
+
+.foodsafetext {
+    margin-top: 10px;
+    width: 60%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 0.8cm;
+    color: black;
+    float: left;
+}
+
+.foodsafe3 {
+    margin-top: 10px;
+    width: 59%;
+    float: left;
+}
+
+.foodsafe4 {
+    margin-top: 10px;
+    width: 41%;
+    float: left;
 }
 
 .navimg>img {
