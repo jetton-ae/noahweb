@@ -1792,7 +1792,7 @@ p.look {
     margin-top: 10px;
     width: 60%;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 0.8cm;
+    font-size: 0.6cm;
     color: black;
     float: left;
 }
@@ -1814,7 +1814,7 @@ p.look {
 
 .foodsafe4 {
     margin-top: 10px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     width: 41%;
     float: left;
 }
