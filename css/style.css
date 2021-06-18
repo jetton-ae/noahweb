@@ -1784,16 +1784,16 @@ p.look {
 
 .foodsafe2 {
     margin-top: 10px;
-    width: 40%;
+    width: 41.5%;
     float: left;
 }
 
 .foodsafetext {
     margin-top: 10px;
-    width: 60%;
+    width: 58.5%;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 0.6cm;
-    color: black;
+    color: #616161;
     float: left;
 }
 
@@ -1808,14 +1808,14 @@ p.look {
 
 .foodsafe3 {
     margin-top: 10px;
-    width: 59%;
+    width: 58.5%;
     float: left;
 }
 
 .foodsafe4 {
     margin-top: 10px;
-    margin-bottom: 2.5rem;
-    width: 41%;
+    margin-bottom: 3.5rem;
+    width: 41.5%;
     float: left;
 }
 
