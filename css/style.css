@@ -1650,11 +1650,11 @@ p.look {
     max-width: 1400px;
     height: auto;
     /*サイトの最大幅*/
-    margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 2%;
-    padding-right: 2%;
+    display: flex;
+    justify-content: center;
+    /*水平置中*/
+    align-items: center;
+    /*垂直置中*/
 }
 
 .bgposition {
