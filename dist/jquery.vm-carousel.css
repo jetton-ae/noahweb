@@ -55,12 +55,13 @@
 }
 
 .vmc-arrow-left {
+    left: 10px;
     background-image: url('../images/left\ \(1\).png');
 }
 
 .vmc-arrow-right {
     left: auto;
-    right: -15px;
+    right: 5px;
     background-image: url('../images/left\ \(2\).png');
 }
 
