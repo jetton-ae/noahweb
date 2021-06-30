@@ -45,13 +45,14 @@
     top: 50%;
     left: -15px;
     width: 50px;
-    height: 50px;
+    height: 100%;
     margin-top: -25px;
     overflow: hidden;
     opacity: 0;
     border-radius: 50%;
     transition: opacity 0.3s ease;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .vmc-arrow-left {
