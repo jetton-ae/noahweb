@@ -1,15 +1,15 @@
 <!DOCTYPE html>
+<html lang="ja">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- 網頁文字標題和內容小字 -->
-    <title>ShapesBySons | We Create Webflow Websites | Web Design &amp; Development in Reykjavik Iceland</title>
-    <meta content="Hi, we’re Thorir and David. We live, breathe and build websites for small businesses and start-ups." name="description">
-    <!-- 網頁文字標題和內容小字  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>諾亞Noah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 描述頁面主要內容 -->
-    <!-- <meta content="象徵回歸自然、希望萌芽的Noah，本著專業及用心的態度特別為東方人所設計的兒童及成人奶粉。
+    <meta name="Noah" content="象徵回歸自然、希望萌芽的Noah，本著專業及用心的態度特別為東方人所設計的兒童及成人奶粉。
 諾亞Noah幾十年秉持著諾亞故事的精神做好每一項奶粉產品，保持原有的鮮度，呈現最完美的奶粉產品，帶著消費者最優質的享受。
-" name="Noah"> -->
+">
     <!-- 描述頁面主要內容 -->
     <meta name="keywords" content="諾亞奶粉,諾亞,奶粉,Noah,noah,milkpowder,milk">
     <link rel="stylesheet" href="css/style.css">
@@ -201,16 +201,16 @@
                     </a>
                     <ul class="ddmenu">
                         <li class="test1">
-                            <a href="/en/index.html"><img src="./images/usa.png" alt="" width="40px"></a>
+                            <a href="/en/index.html"><img src="/images/usa.png" alt="" width="40px"></a>
                         </li>
                         <li class="test1">
-                            <a href="/vn/index.html"><img src="./images/vietnam_flag.png" alt="" width="40px"></a>
+                            <a href="/vn/index.html"><img src="/images/vietnam_flag.png" alt="" width="40px"></a>
                         </li>
                         <li class="test1">
-                            <a href="/my/index.html"><img src="./images/malaysia.png" alt="" width="40px"></a>
+                            <a href="/my/index.html"><img src="/images/malaysia.png" alt="" width="40px"></a>
                         </li>
                         <li>
-                            <a href="/jp/index.html"><img src="./images/japan_flag.png" alt="" width="40px"></a>
+                            <a href="/jp/index.html"><img src="/images/japan_flag.png" alt="" width="40px"></a>
                         </li>
                     </ul>
                 </li>
@@ -239,16 +239,16 @@
                 <li id="menubar_hdr3" class="close">語言
                     <ul id="menubar-s3">
                         <li>
-                            <a href="#"><img src="/images/usa.png" alt="" width="40px"></a>
+                            <a href="#"><img src="./images/usa.png" alt="" width="40px"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="/images/vietnam_flag.png" alt="" width="40px"></a>
+                            <a href="#"><img src="./images/vietnam_flag.png" alt="" width="40px"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="/images/malaysia.png" alt="" width="40px"></a>
+                            <a href="#"><img src="./images/malaysia.png" alt="" width="40px"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="/images/japan_flag.png" alt="" width="40px"></a>
+                            <a href="#"><img src="./images/japan_flag.png" alt="" width="40px"></a>
                         </li>
                     </ul>
                 </li>
@@ -309,7 +309,7 @@
         <div class="footerpage"></div>
 
     </div>
-    <script src="./js/cookiebar.js.php"></script>
+    <!-- <script src="./js/cookiebar.js.php"></script>
     <style type="text/css">
         .DVCBar {
             position: fixed;
@@ -439,13 +439,9 @@
     <div>
       <a href="javascript:;" onclick="DVCCloseBar()">Agree</a>
     </div>
-  </i>
+  </i> -->
     <!--/#container-->
     <p class="nav-fix-pos-pagetop "><a href="# ">↑</a></p>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js " type="text/javascript "></script>
     <script>
         window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js "><\/script>')
@@ -462,24 +458,26 @@
             });
         });
     </script>
+
     <!--メニュー開閉ボタン-->
-    <div id="menubar_hdr " class="close "></div>
-    <script src="js/openclose.js "></script>
-    <script src="js/fixmenu.js "></script>
-    <script src="js/fixmenu_pagetop.js "></script>
-    <script src="js/ddmenu_min.js "></script>
+    <div id="menubar_hdr" class="close"></div>
+    <script src="js/openclose.js"></script>
+    <script src="js/fixmenu.js"></script>
+    <script src="js/fixmenu_pagetop.js"></script>
+    <script src="js/ddmenu_min.js"></script>
     <!--メニューの開閉処理-->
     <script>
-        open_close("menubar_hdr ", "menubar-s ");
+        open_close("menubar_hdr", "menubar-s");
+    </script>
+
+    <!--「WORKS」の子メニュー-->
+    <script>
+        open_close("menubar_hdr2", "menubar-s2");
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
     <script src="js/wow.min.js "></script>
     <script>
         new WOW().init();
-    </script>
-    <!--「WORKS」の子メニュー-->
-    <script>
-        open_close("menubar_hdr2 ", "menubar-s2 ");
     </script>
     <!-- loding -->
     <script>
@@ -552,4 +550,4 @@
         }
     </script> -->
 
-    </html>
+</html>
