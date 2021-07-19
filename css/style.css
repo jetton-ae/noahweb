@@ -1718,7 +1718,7 @@ p.look {
 /* =========ad======== */
 
 .ad {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     height: auto;
     /*サイトの最大幅*/
     display: flex;
