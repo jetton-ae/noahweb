@@ -27,7 +27,7 @@ body {
     /*フォント種類*/
     font-size: 16px !important;
     /*文字サイズ*/
-    line-height: 2!important !important;
+    line-height: 2!important;
     /*行間*/
     /* background: #e7eff6 !important; */
     /*背景色*/
@@ -208,10 +208,11 @@ header #logo {
 
 /*メニュー１個あたりの設定*/
 
-#menubar ul {
-    /* width: 800px; */
-    /* padding-left: 28%; */
-}
+
+/* #menubar ul {
+    width: 800px;
+    padding-left: 28%;
+} */
 
 #menubar ul li {
     float: left;
