@@ -1607,12 +1607,12 @@ p.look {
 /* 商品介紹頁面 */
 
 .product {
-    width: 75%;
+    width: 80%;
     margin-bottom: 5vw;
 }
 
 .productimg {
-    width: 40%;
+    width: 35%;
     height: auto;
     margin-left: -3vw;
     float: left;
@@ -1627,7 +1627,7 @@ p.look {
 }
 
 .producttext {
-    width: 60%;
+    width: 65%;
     height: auto;
     margin-top: 5vw;
     float: left;
