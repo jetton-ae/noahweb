@@ -124,40 +124,6 @@
         box-shadow: 4px 4px rgba(20%, 20%, 40%, 0.5);
     }
 </style>
-<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js " type="text/javascript "></script>
-<script>
-    window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js "><\/script>')
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
-<script src="dist/jquery.vm-carousel.js "></script>
-<script type="text/javascript ">
-    jQuery(function($) {
-        $('.vmcarousel-centered-infitine').vmcarousel({
-            centered: true,
-            start_item: 1,
-            autoplay: false,
-            infinite: true
-        });
-    });
-</script>
-<!--メニュー開閉ボタン-->
-<div id="menubar_hdr" class="close"></div>
-<script src="js/openclose.js"></script>
-<script src="js/fixmenu.js"></script>
-<script src="js/fixmenu_pagetop.js"></script>
-<script src="js/ddmenu_min.js"></script>
-<!--メニューの開閉処理-->
-<script>
-    open_close("menubar_hdr", "menubar-s");
-</script>
-
-<!--「WORKS」の子メニュー-->
-<script>
-    open_close("menubar_hdr2", "menubar-s2");
-</script>
-<script>
-    open_close("menubar_hdr3", "menubar-s3");
-</script>
 
 <body class="home">
     <!-- loding -->
@@ -473,8 +439,40 @@
   </i> -->
     <!--/#container-->
     <p class="nav-fix-pos-pagetop "><a href="# ">↑</a></p>
+    <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js " type="text/javascript "></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js "><\/script>')
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+    <script src="dist/jquery.vm-carousel.js "></script>
+    <script type="text/javascript ">
+        jQuery(function($) {
+            $('.vmcarousel-centered-infitine').vmcarousel({
+                centered: true,
+                start_item: 1,
+                autoplay: false,
+                infinite: true
+            });
+        });
+    </script>
+    <!--メニュー開閉ボタン-->
+    <div id="menubar_hdr" class="close"></div>
+    <script src="js/openclose.js"></script>
+    <script src="js/fixmenu.js"></script>
+    <script src="js/fixmenu_pagetop.js"></script>
+    <script src="js/ddmenu_min.js"></script>
+    <!--メニューの開閉処理-->
+    <script>
+        open_close("menubar_hdr", "menubar-s");
+    </script>
 
-
+    <!--「WORKS」の子メニュー-->
+    <script>
+        open_close("menubar_hdr2", "menubar-s2");
+    </script>
+    <script>
+        open_close("menubar_hdr3", "menubar-s3");
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
     <script src="js/wow.min.js "></script>
