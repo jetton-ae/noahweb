@@ -1639,9 +1639,9 @@ p.look {
 }
 
 .producttext1 {
-    width: 65%;
+    width: 100%;
     height: auto;
-    margin-top: 5vw;
+    margin-top: -5vw;
     float: left;
     margin-bottom: 1vw;
     text-align: left;
