@@ -124,6 +124,24 @@
         box-shadow: 4px 4px rgba(20%, 20%, 40%, 0.5);
     }
 </style>
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<script src="js/ddmenu_min.js"></script>
+<!--メニューの開閉処理-->
+<script>
+    open_close("menubar_hdr", "menubar-s");
+</script>
+
+<!--「WORKS」の子メニュー-->
+<script>
+    open_close("menubar_hdr2", "menubar-s2");
+</script>
+<script>
+    open_close("menubar_hdr3", "menubar-s3");
+</script>
 
 <body class="home">
     <!-- loding -->
@@ -456,24 +474,7 @@
         });
     </script>
 
-    <!--メニュー開閉ボタン-->
-    <div id="menubar_hdr" class="close"></div>
-    <script src="js/openclose.js"></script>
-    <script src="js/fixmenu.js"></script>
-    <script src="js/fixmenu_pagetop.js"></script>
-    <script src="js/ddmenu_min.js"></script>
-    <!--メニューの開閉処理-->
-    <script>
-        open_close("menubar_hdr", "menubar-s");
-    </script>
 
-    <!--「WORKS」の子メニュー-->
-    <script>
-        open_close("menubar_hdr2", "menubar-s2");
-    </script>
-    <script>
-        open_close("menubar_hdr3", "menubar-s3");
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
     <script src="js/wow.min.js "></script>
     <script>
