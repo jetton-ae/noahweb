@@ -149,7 +149,7 @@
         }
         
         #logo {
-            background-image: url('../images/logo1.png');
+            background-image: url('../images/logo1.wrbp');
             background-repeat: no-repeat;
             -moz-background-size: 100%100%;
             background-size: 100%100%;
@@ -681,7 +681,7 @@
             padding: 50px 10%;
             /*上下、左右へのボックス内の余白*/
             font-weight: 500;
-            background-image: url('../images/Noah\ \(footer\)1500_242_V2.png');
+            background-image: url('../images/Noah\ \(footer\)1500_242_V2.webp');
             background-size: 100% 100%;
             /* margin-top: 0.5vw; */
         }
