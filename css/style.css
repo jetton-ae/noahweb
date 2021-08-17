@@ -221,7 +221,8 @@
         
         #menubar-s,
         #menubar-s2,
-        #menubar-s3 {
+        #menubar-s3,
+        #menubar-s4 {
             display: none;
         }
         /*３本バーアイコンを表示させない*/
@@ -1109,7 +1110,8 @@
             /*メニュー１個あたりの設定と、子メニューの見出し。*/
             #menubar-s ul li a,
             #menubar_hdr2,
-            #menubar_hdr3 {
+            #menubar_hdr3,
+            #menubar_hdr4 {
                 display: block;
                 text-decoration: none;
                 padding: 30px 20px 30px 60px;
@@ -1128,6 +1130,15 @@
                 /*文字色*/
             }
             #menubar_hdr3 {
+                display: block;
+                text-decoration: none;
+                padding: 30px 20px 30px 60px;
+                border-bottom: 1px solid #fff;
+                /*下の線の幅、線種、色*/
+                color: #fff;
+                /*文字色*/
+            }
+            #menubar_hdr4 {
                 display: block;
                 text-decoration: none;
                 padding: 30px 20px 30px 60px;
@@ -1198,6 +1209,29 @@
                 padding: 10px 20px !important;
             }
             #menubar-s3 li:last-child a {
+                border-bottom: none !important;
+            }
+            #menubar-s4 {
+                display: none;
+                margin-top: 10px;
+                border-radius: 5px;
+                background: rgba(0, 0, 0, 0.3);
+                border: 1px solid #fff;
+            }
+            /*「＞」アイコン設定*/
+            #menubar_hdr4.close {
+                background: url('../images/arrow2.png') no-repeat 20px 35px / 18px;
+            }
+            /*「＾」アイコン設定*/
+            #menubar_hdr4.open {
+                background: url('../images/arrow3.png') no-repeat 20px 35px / auto 18px;
+            }
+            /*子メニュー１個あたりの設定*/
+            #menubar-s4 li a {
+                border-bottom: 1px solid #fff !important;
+                padding: 10px 20px !important;
+            }
+            #menubar-s4 li:last-child a {
                 border-bottom: none !important;
             }
             /*３本バーアイコン設定
